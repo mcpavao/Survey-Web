@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>Survey Epiphany</title>
+</head>
+<body>
+    <!--Lets create our survey using a basic structure-->
+    
+        <div class="main-question">
+            <h1>How do you feel about these quotes?</h1>
+        </div>
+        <div id="app">
+            <div id="main-picture">
+                <img src="./assets/img/img_statement_1.png" id="image" alt="">
+            </div>
+            <div id="cat-feeling">
+                <button onclick="myImage()">
+                    <img src="./assets/img/img_cat_happy.png" alt="">
+                </button>
+                <button onclick="myImage()">
+                    <img src="./assets/img/img_cat_neutral.png" alt="">
+                </button>
+                <button onclick="myImage()">
+                    <img src="./assets/img/img_cat_supersad.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="button">
+            <button onclick="location.href='index.html' " id="button-next">
+                <p>Back Survey</p>
+            </button>
+            <button onclick="location.href='index2.html' " id="button-next">
+                <p>Next Survey</p>
+            </button>
+        </div>
+</body>
+</html>
