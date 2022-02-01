@@ -1,0 +1,79 @@
+body {
+    background: radial-gradient(circle, rgb(25, 52, 201) 0%, rgba(63,1,119,0.9920343137254902) 47%, rgba(0,0,0,1) 96%);
+    margin: 0;
+    
+}
+
+#app {
+    align-content: center;
+    align-items: center;
+    background-color: rgb(125, 224, 80);
+    border-radius: 15px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    justify-content: center;
+    padding: 30px 50px 20px 100px;
+}
+
+.main-question {
+    align-items: center;
+}
+
+.main-question h1 {
+    align-items: center;
+    color: rgb(243, 235, 235);
+    font-family: 'Gotham' -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#main-picture {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#main-picture img{
+    border-radius: 10px;
+    height: 25em;
+    margin-right: 55px;
+    margin-bottom: 20px;
+    width: 35em;
+}
+
+#cat-feeling {
+    align-items: center;
+    border-radius: 15px;
+    color: aliceblue !important;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+#button-next {
+    align-content: center;
+    align-items: center;
+    background-color: orange !important;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px orange;
+    font-weight: 700;
+    width: 10%;
+}
+
+#button-next p {
+    font-family: 'Gotham' -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
